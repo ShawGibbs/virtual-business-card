@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Nikolaos Ioannidis – Audit Partner</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        :root {
+            --bg: #f5f5f5;
+            --card-bg: #ffffff;
+            --accent: #333333;
+            --accent-soft: #666666;
+            --border: #dddddd;
+            --link: #004f7c;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background: var(--bg);
+            color: var(--accent);
+            display: flex;
+            min-height: 100vh;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .card {
+            background: var(--card-bg);
+            border-radius: 14px;
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+            padding: 24px 22px;
+            max-width: 360px;
+            width: 100%;
+            border: 1px solid var(--border);
+        }
+
+        .name {
+            font-size: 1.3rem;
+            font-weight: 600;
+            margin: 0 0 4px;
+        }
+
+        .title {
+            font-size: 0.95rem;
+            color: var(--accent-soft);
+            margin: 0 0 16px;
+        }
+
+        .section {
+            margin-bottom: 14px;
+            font-size: 0.92rem;
+        }
+
+        .label {
+            font-size: 0.78rem;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            color: var(--accent-soft);
+            margin-bottom: 3px;
+        }
+
+        .value {
+            line-height: 1.35;
+        }
+
+        a {
+            color: var(--link);
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .button-row {
+            display: flex;
+            gap: 8px;
+            margin-top: 8px;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            flex: 1 1 120px;
+            text-align: center;
+            padding: 9px 10px;
+            border-radius: 999px;
+            border: 1px solid var(--border);
+            font-size: 0.86rem;
+            cursor: pointer;
+            text-decoration: none;
+            background: #fafafa;
+        }
+
+        .btn.primary {
+            background: var(--link);
+            color: #ffffff;
+            border-color: var(--link);
+        }
+
+        .btn:hover {
+            filter: brightness(0.97);
+            text-decoration: none;
+        }
+
+        .footer-note {
+            margin-top: 14px;
+            text-align: center;
+            font-size: 0.75rem;
+            color: var(--accent-soft);
+        }
+    </style>
+</head>
+<body>
+<div class="card">
+    <header>
+        <h1 class="name">Nikolaos Ioannidis</h1>
+        <p class="title">Audit Partner</p>
+    </header>
+
+    <section class="section">
+        <div class="label">Email</div>
+        <div class="value">
+            <a href="mailto:Nikolaos.Ioannidis@shawgibbs.com">
+                Nikolaos.Ioannidis@shawgibbs.com
+            </a>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="label">Telephone</div>
+        <div class="value">
+            <a href="tel:+441865292247">+44 (0) 1865 292247</a>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="label">Office</div>
+        <div class="value">
+            264 Banbury Road<br>
+            Summertown<br>
+            Oxford<br>
+            OX2 7DY<br>
+            United Kingdom
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="label">Online</div>
+        <div class="value">
+            <a href="https://www.shawgibbs.com/team/nik-ioannidis/" target="_blank" rel="noopener noreferrer">
+                Firm profile
+            </a><br>
+            <a href="https://www.linkedin.com/in/nikolaos-ioannidis-b752ba26" target="_blank" rel="noopener noreferrer">
+                LinkedIn
+            </a>
+        </div>
+    </section>
+
+    <div class="button-row">
+        <a class="btn primary" href="Nikolaos-Ioannidis.vcf" download>
+            Save contact
+        </a>
+        <a class="btn" href="https://www.shawgibbs.com/team/nik-ioannidis/" target="_blank" rel="noopener noreferrer">
+            View profile
+        </a>
+    </div>
+
+    <div class="footer-note">
+        Tap via NFC or open directly in your browser.
+    </div>
+</div>
+</body>
+</html>
