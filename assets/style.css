@@ -3,7 +3,7 @@
 /* Brand colours (from SG) */
 :root {
     --sg-green: #8BC63D;   /* main accent green */
-    --sg-grey:  ##55565a;   /* dark header grey */
+    --sg-grey:  #4d4e52;   /* dark header grey */
     --sg-light-grey: #A0A2A5;
     --bg: #f5f5f5;
     --card-bg: #ffffff;
