@@ -58,8 +58,8 @@ body {
 }
 
 .firm-logo {
-    height: 20px;
-    margin-bottom: 6px;
+    height: 32px;          /* bigger logo */
+    margin-bottom: 8px;
     display: block;
 }
 
